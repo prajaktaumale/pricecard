@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.columns {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.price {
+    list-style-type: none;
+    border: 2px solid rgb(27, 8, 8);
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.price .header {
+    background-color: rgb(31, 34, 240);
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.price li {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+}
+.price .grey {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: brown;
+}
+.price .year{
+    background-color: cadetblue;
+    font-size: 20px;
+}
+.price .year1{
+    background-color: cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+li .button {
+    text-decoration: none;
+    background-color: rgb(246, 235, 164);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+@media only screen and (max-width:500px) {
+    .columns {
+        width: 100%;
+    }
+}
